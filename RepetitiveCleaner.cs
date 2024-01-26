@@ -113,7 +113,7 @@ namespace RepetitiveFileCleaner
 
         }
 
-        public double ComparisionImage(string firstFileContent, string secondFileContent)
+        private double ComparisionImage(string firstFileContent, string secondFileContent)
         {
             var firstBitmap = new Bitmap(firstFileContent);
             var secondBitmap = new Bitmap(secondFileContent);
